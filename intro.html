@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>into to js</title>
+</head>
+<body>
+	<h1 id="demo1"></h1>
+	<p id="demo2"></p>
+	<p id="result"></p>
+	<p id="result1"></p>
+    <p id="result2"></p>
+
+<script type="text/javascript">
+	document.getElementById("demo1").innerHTML="my first javascript";
+	document.getElementById("demo2").innerHTML="introduction to javascript"
+
+	var number1=12;
+	var number2=34;
+	var sum= number1+number2;
+	document.getElementById("result").innerHTML="the sum of 12 and 34 is: "+sum;
+
+	var x, y, z;
+	x=300;
+	y=145;
+	z=678;
+	var sum1=(x*10)+y-z;
+	document.getElementById("result1").innerHTML="the equation reselt is: "+sum1;
+
+	var a, b, c;
+	a=234;
+	b=709;
+	c=456;
+	var sum2=(a+4)*b/c;
+	document.getElementById("result2").innerHTML="the equation result is: "+sum2;
+</script>
+</body>
+</html>
